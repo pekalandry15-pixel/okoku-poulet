@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKOKU - Restaurant Poulet Grillé à Douala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="image.png" alt="OKOKU Logo" class="logo-img">
+                <span>OKOKU</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#marches" class="nav-link">Marchés</a></li>
+                <li><a href="#galerie" class="nav-link">Galerie</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#panier" class="nav-link cart-icon">🛒 Panier</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">🍗 OKOKU</h1>
+            <p class="hero-subtitle">Le Meilleur Poulet Grillé de Douala</p>
+            <p class="hero-desc">Poulet Braisé • Grillé • Pané • Rôti • Mayo</p>
+            <button class="btn btn-primary" onclick="scrollTo('#menu')">Voir le Menu</button>
+        </div>
+        <div class="hero-image">
+            <img src="image.png" alt="Façade OKOKU" class="hero-img">
+        </div>
+    </section>
+
+    <!-- SECTION PRODUITS POPULAIRES -->
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Notre Menu</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="images/poulet-grille.png" alt="Poulet Grillé" class="product-img">
+                <h3>Poulet Grillé</h3>
+                <p class="description">Poulet fermier grillé à la perfection</p>
+                 <div class="price-section">
+                    <span class="price">2500 FCFA</span>
+                    <button class="btn-add" onclick="addToCart('Poulet Grillé', 2500)">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/poulet-pané.png" alt="Poulet Pané" class="product-img">
+                <h3>Poulet Pané</h3>
+                <p class="description">Poulet croustillant enrobé de chapelure</p>
+                <div class="price-section">
+                    <span class="price">2500 FCFA</span>
+                    <button class="btn-add" onclick="addToCart('Poulet Pané', 2500)">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/poulet braise.png" alt="Poulet Braisé" class="product-img">
+                <h3>Poulet Braisé</h3>
+                <p class="description">Poulet savoureux braisé aux épices</p>
+                <div class="price-section">
+                    <span class="price">2500 FCFA</span>
+                    <button class="btn-add" onclick="addToCart('Poulet Braisé', 2500)">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/poulet roti.png" alt="Poulet Rôti" class="product-img">
+                <h3>Poulet Rôti</h3>
+                <p class="description">Poulet rôti traditionnel aux herbes</p>
+                <div class="price-section">
+                    <span class="price">2500 FCFA</span>
+                    <button class="btn-add" onclick="addToCart('Poulet Rôti', 2500)">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/poulet-mayo.png" alt="Poulet Mayo" class="product-img">
+                <h3>Poulet Mayo</h3>
+                <p class="description">Poulet accompagné de mayonnaise maison</p>
+                <div class="price-section">
+                    <span class="price">2500 FCFA</span>
+                    <button class="btn-add" onclick="addToCart('Poulet Mayo', 2500)">Ajouter</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/menu.png" alt="Menu Complet" class="product-img">
+                <h3>Menu Complet</h3>
+                <p class="description">Poulet + Frites + Boisson + Dessert</p>
+                <div class="price-section">
+                    <span class="price">5000 FCFA</span>
+                    <button class="btn-add" onclick="addToCart('Menu Complet', 5000)">Ajouter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARCHÉS -->
+    <section id="marches" class="markets-section">
+        <h2 class="section-title">Nos Marchés</h2>
+        <div class="products-grid">
+            <div class="market-card">
+                <img src="images/Marché Bonamoussadi.png" alt="Marché Bonamoussadi" class="product-img">
+                <h3>Marché Bonamoussadi</h3>
+                <p class="description">Le point de vente principal pour les poulets frais et la livraison locale.</p>
+                <div class="price-section">
+                    <span class="price">Douala</span>
+                </div>
+            </div>
+            <div class="market-card">
+                <img src="images/Marché Akwa.png" alt="Marché Akwa" class="product-img">
+                <h3>Marché Akwa</h3>
+                <p class="description">Retrait rapide et commandes sur place pour les clients d'Akwa.</p>
+                <div class="price-section">
+                    <span class="price">Douala</span>
+                </div>
+            </div>
+            <div class="market-card">
+                <img src="images/Marché Bonanjo.png" alt="Marché Bonanjo" class="product-img">
+                <h3>Marché Bonanjo</h3>
+                <p class="description">Service VIP pour les professionnels, événements et revendeurs.</p>
+                <div class="price-section">
+                    <span class="price">Douala</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section id="galerie" class="gallery-section">
+        <h2 class="section-title">Nos Spécialités</h2>
+        <div class="gallery-grid">
+            <img src="images/poulet-grille.png" alt="Galerie 1" class="gallery-img">
+            <img src="images/poulet-grille.png" alt="Galerie 2" class="gallery-img">
+            <img src="images/poulet-grille.png" alt="Galerie 3" class="gallery-img">
+        </div>
+    </section>
+
+    <!-- PANIER -->
+    <section id="panier" class="cart-section">
+        <h2 class="section-title">Votre Panier</h2>
+        <div class="cart-container">
+            <div id="cartItems" class="cart-items">
+                <p class="empty-cart">Votre panier est vide</p>
+            </div>
+            <div class="cart-summary">
+                <h3>Résumé</h3>
+                <div class="summary-row">
+                    <span>Total:</span>
+                    <span id="cartTotal">0 FCFA</span>
+                </div>
+                <button class="btn btn-primary" onclick="checkout()">Commander</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULAIRE COMMANDE/CONTACT -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">📞 Commander ou Nous Contacter</h2>
+        <form id="commandeForm" class="form-container">
+            <div class="form-group">
+                <input type="text" id="nom" placeholder="Votre Nom *" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="telephone" placeholder="Votre Téléphone *" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Votre Email">
+            </div>
+            <div class="form-group">
+                <input type="text" id="adresse" placeholder="Adresse de Livraison *" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="Message (allergies, préférences...)" rows="4"></textarea>
+            </div>
+            <div id="formMessage" class="form-message"></div>
+            <button type="submit" class="btn btn-primary">Valider la Commande</button>
+        </form>
+        
+        <div class="contact-info">
+            <h3>Informations</h3>
+            <p>📍 <strong>Douala, Cameroun</strong></p>
+            <p>📞 <strong>+237  672 687 679</strong></p>
+            <p>⏰ <strong>Lundi - Dimanche: 10h - 23h</strong></p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 OKOKU - Restaurant Poulet Grillé. Tous droits réservés.</p>
+        <p>Développé avec ❤️ pour Bouamounsadi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

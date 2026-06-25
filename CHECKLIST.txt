@@ -1,0 +1,266 @@
+✅ CHECKLIST OKOKU - SUIVEZ CES ÉTAPES!
+========================================
+
+## 🎯 COMMENCEZ MAINTENANT
+
+### Étape 1: Tester le site rapidement
+```
+1. Allez dans le dossier: c:\Users\Admin\OneDrive - TPT EXPERTISE\Bureau\JS
+2. Double-cliquez sur: index.html
+3. Votre site s'ouvre! 🎉
+```
+
+### Étape 2: Lire la Documentation
+```
+📖 Lisez BIENVENUE.txt d'abord (guide complet)
+📖 Puis GUIDE_UTILISATION.md (si besoin d'aide)
+📖 Puis DOCUMENTATION.md (si vous êtes développeur)
+```
+
+### Étape 3: Ajouter Vos Images
+```
+1. Prenez 3 photos/images:
+   - Logo OKOKU (200x200px)
+   - Façade restaurant (800x600px)
+   - Plats poulet (600x400px)
+
+2. Mettez-les dans: images/
+
+3. Renommez-les exactement:
+   - logo-okoku.png (ou .jpg)
+   - okoku-restaurant.jpg
+   - poulet-plats.jpg
+
+4. Rafraîchissez le navigateur (F5)
+```
+
+### Étape 4: Mettre à Jour les Infos
+```
+Ouvrir index.html avec:
+- Bloc-notes
+- Notepad++
+- VS Code
+- N'importe quel éditeur texte
+
+Chercher et REMPLACER:
+
+1. Votre numéro de téléphone:
+   Chercher: "+237 6XX XXX XXX"
+   Remplacer par votre vrai numéro
+
+2. Vos horaires:
+   Chercher: "Lundi - Dimanche: 10h - 23h"
+   Remplacer par vos vrais horaires
+
+3. Les prix (si besoin):
+   Chercher: "2500" ou "5000"
+   Remplacer par le bon prix
+```
+
+### Étape 5: Tester Complètement
+```
+Tests à faire:
+
+✅ Navigation:
+   □ Cliquez tous les liens du menu
+   □ Vérifiez que scroll fonctionne bien
+   □ Vérifiez que vous allez à la bonne section
+
+✅ Panier:
+   □ Cliquez "Ajouter" 3-4 fois
+   □ Allez à l'onglet "Panier"
+   □ Vérifiez que total est correct (2500+2500+5000=10000)
+   □ Cliquez "Retirer" et vérifiez le calcul
+
+✅ Formulaire:
+   □ Allez à "Télécommander"
+   □ Essayez d'envoyer sans remplir = ERREUR ✓
+   □ Remplissez tous les champs
+   □ Cliquez "Valider la Commande"
+   □ Message de confirmation apparaît ✓
+   □ Formulaire se réinitialise ✓
+
+✅ Mobile:
+   □ Appuyez F12
+   □ Cliquez icône mobile
+   □ Choisissez iPhone ou Pixel
+   □ Vérifiez que tout s'affiche bien
+```
+
+### Étape 6: Préparer le Lancement
+```
+Avant de lancer officiellement:
+
+□ Images réelles ajoutées
+□ Tous les prix vérifiés
+□ Numéro de téléphone correct
+□ Horaires corrects
+□ Adresse correcte
+□ Testé sur mobile
+□ Testé sur ordinateur
+□ Testé sur tablette
+□ Formulaire testé
+□ Panier testé
+□ Un ami/famille a testé
+□ Vous êtes satisfait! 😊
+```
+
+---
+
+## 🚀 DÉMARRAGE ULTRA RAPIDE
+
+**Pour ceux qui sont pressés:**
+
+```
+1. Double-cliquez index.html
+2. Le site s'ouvre = ✅ Ça marche!
+3. Ajouter images dans le dossier images/
+4. Mettre à jour numéro + horaires dans index.html
+5. F5 (rafraîchir) = TERMINÉ! 🎉
+```
+
+**Temps: 10 minutes maximum!**
+
+---
+
+## 📊 SOMMAIRE DES FICHIERS
+
+### Fichiers à MODIFIER:
+- ✏️ **index.html** - Prix, téléphone, horaires
+- ✏️ **images/** - Ajouter vos photos
+
+### Fichiers à LIRE:
+- 📖 **README.md** - Résumé rapide
+- 📖 **BIENVENUE.txt** - Guide complet
+- 📖 **GUIDE_UTILISATION.md** - Tuto utilisateur
+
+### Fichiers à NE PAS TOUCHER:
+- 🔒 **style.css** - Design (expert seulement)
+- 🔒 **script.js** - Logique (expert seulement)
+
+### Pour Référence:
+- 📚 **DOCUMENTATION.md** - Détails techniques
+
+---
+
+## 🎯 OBJECTIFS ÉTAPE PAR ÉTAPE
+
+### Jour 1:
+- [ ] Lire README.md (5 min)
+- [ ] Tester le site (2 min)
+- [ ] Lire BIENVENUE.txt (15 min)
+
+### Jour 2:
+- [ ] Prendre 3 photos/images
+- [ ] Redimensionner images (10 min)
+- [ ] Ajouter images dans dossier
+
+### Jour 3:
+- [ ] Mettre à jour prix
+- [ ] Mettre à jour téléphone
+- [ ] Mettre à jour horaires
+
+### Jour 4:
+- [ ] Tester panier (5 min)
+- [ ] Tester formulaire (5 min)
+- [ ] Tester sur mobile (5 min)
+
+### Jour 5:
+- [ ] Demander avis à 3 personnes
+- [ ] Corriger si besoin
+- [ ] Prêt à lancer! 🚀
+
+---
+
+## 💡 ASTUCES MALIN
+
+### Comment TROUVER un prix à modifier:
+1. Ouvrir index.html
+2. Appuyer Ctrl+F
+3. Taper: "2500"
+4. Voir tous les prix qui s'affichent
+5. Double-cliquer pour modifier
+
+### Comment TESTER rapidement:
+1. Faire un changement dans index.html
+2. Sauvegarder (Ctrl+S)
+3. Aller au navigateur
+4. Appuyer F5
+5. Voir le changement ✓
+
+### Comment VOIR LES ERREURS:
+1. Appuyer F12
+2. Aller à "Console"
+3. Les erreurs sont en rouge
+4. Les logs sont en bleu
+
+---
+
+## 🛑 SI QUELQUE CHOSE NE FONCTIONNE PAS
+
+### Le site ne s'ouvre pas:
+→ Vérifiez que index.html existe
+→ Essayez avec un autre navigateur
+→ Utilisez Chrome si possible
+
+### Les images ne s'affichent pas:
+→ Vérifiez les fichiers sont dans images/
+→ Vérifiez les noms sont corrects
+→ Appuyez F5 pour rafraîchir
+
+### Le panier ne fonctionne pas:
+→ Ouvrir F12 → Console
+→ Voir si message d'erreur rouge
+→ Vérifier que JavaScript est activé
+
+### Le formulaire ne valide pas:
+→ Tous les champs * doivent être remplis
+→ Le téléphone doit avoir 8 chiffres minimum
+→ L'email doit avoir format valide
+
+### Le site s'affiche mal sur mobile:
+→ C'est normal (images placeholder)
+→ Ça sera mieux avec vos vraies images
+→ Tester quand images ajoutées
+
+---
+
+## 📞 CONTACT POUR AIDE
+
+Si vous bloquez:
+1. Relire BIENVENUE.txt
+2. Relire GUIDE_UTILISATION.md
+3. Ouvrir Console (F12)
+4. Vérifier messages d'erreur
+
+---
+
+## 🎉 QUAND VOUS ÊTES PRÊT À LANCER
+
+Avant mise en ligne:
+1. ✅ Images réelles ajoutées
+2. ✅ Tous les prix vérifiés
+3. ✅ Téléphone correct
+4. ✅ Horaires correctes
+5. ✅ Testé par 3 personnes
+6. ✅ Pas d'erreur en Console (F12)
+
+**Alors vous êtes prêt à publier! 🚀**
+
+---
+
+## 🎯 RÉSUMÉ EN 3 POINTS
+
+1. **TESTER**: Double-cliquez index.html
+2. **PERSONNALISER**: Ajouter images + mettre à jour infos
+3. **LANCER**: Tester puis publier en ligne
+
+**C'est tout! Facile, non? 😊**
+
+---
+
+**Créé pour: Bouamounsadi & OKOKU**
+**Date: 2026**
+**Localisation: Douala, Cameroun**
+
+🍗 Bon courage pour le lancement! 🍗
